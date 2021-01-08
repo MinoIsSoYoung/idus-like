@@ -1,4 +1,4 @@
-package com.minosoyoung.iduslikeserver.domain.entity;
+package com.minosoyoung.iduslikeserver.domain.users;
 
 import javax.persistence.*;
 
