@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link, NavLink } from "react-router-dom";
-
+import Button from '@material-ui/core/Button';
 import idsLogo from '../../images/idsLogo.gif'
 import Footer from '../../../footer/view/Footer'
-
 import './Login.css'
+
 const Login = () => {
     return (
         <>
@@ -28,8 +28,9 @@ const Login = () => {
                             <input className='input_' />
                         </div>
                     </form>
-                    <button className='login_btn'>로그인</button>
+                    <Button variant="contained" id='login_btn'>로그인</Button>
                 </div>
+                <div className='signin'>아직 회원이 아니신가요? &nbsp;&nbsp;<a href="www.naver.com"><strong>회원가입하기</strong></a></div>
             </div>
             <Footer />
         </>

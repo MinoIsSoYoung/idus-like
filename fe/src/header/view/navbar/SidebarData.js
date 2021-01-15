@@ -12,8 +12,8 @@ export const SidebarData = [
         cName: 'nav-text'
     },
     {
-        title: 'Mypage',
-        path: '/Mypage',
+        title: 'About',
+        path: '/About',
         icon: <AiIcons.AiFillBook />,
         cName: 'nav-text'
     },
